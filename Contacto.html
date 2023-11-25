@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contacto</title>
+
+    <!-- Bootstrap link  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Icono del tab de google-->
+    <link rel="icon" href="images/favicon.ico" type="favicon">
+</head>
+<body>
+
+
+    
+<!--header section starts -->
+<header class="bg-light text-dark">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-between">
+            <a href="index.html" class="logo navbar-brand"><img src="images/logo2.png" alt="logo"> &nbsp<span>K-Fresh</span></a>
+
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark mx-3" href="index.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark mx-3" href="Elaboracion.html">Elaboración</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark mx-3" href="Catalogo.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark mx-3" href="Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="icons">
+                <a href="Autora.html" class="fas fa-user text-dark">  Autora</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--header section ends -->
+
+<!-- home section starts  -->
+<div class="home-container2">
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3 style="color: #9628d681;">¡Conoce a la fundadora!</h3>
+            <p style="font-size: large;">Llena el formulario para contactarla</p>
+        </div>
+    </section>
+</div>
+
+<!-- home section ends -->
+
+
+<!-- autora section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"><span> Sobre Mí</span> </h1>
+
+    <div class="row">
+        <div class="content">
+            <p>
+                ¡Hola! Soy Elena Chaves Murillo, la mente creativa detrás de K-Fresh Jabones Artesanales. 
+                Desde muy joven, he sentido una profunda conexión con la naturaleza y un amor por los productos naturales. 
+                Esta pasión me llevó a explorar el mundo de la fabricación de jabones artesanales, donde descubrí la magia 
+                de combinar ingredientes naturales para crear productos que no solo son buenos para la piel, sino también para el alma.
+            </p>
+            <p>
+                Mi viaje en el mundo de la elaboración de jabones comenzó como un pasatiempo a mediados del 2020, pero rápidamente se convirtió 
+                en una verdadera pasión. Cada barra de jabón que produzco es el resultado de cuidadosa investigación, creatividad y un compromiso 
+                inquebrantable con la calidad. Me enorgullece decir que cada producto que lleva el nombre de KFresh está impregnado con el amor 
+                y la dedicación que pongo en cada paso del proceso.
+            </p>
+        </div>
+
+        <div class="icons-container">
+            <!-- video sobre nosotros  -->
+            <img src="images/fundadora2.jpg" alt="">
+            
+        </div>
+
+    </div>
+
+</section>
+<!-- autora section ends -->
+
+
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span> Formulario de  Contacto </span></h1>
+
+    <div class="contenido">
+
+        <form action="https://formsubmit.co/murillokatalina0@gmail.com" method="POST">
+            <div class="nombre">
+                <p class="titulos">Nombre completo:</p>
+                <input type="text" id="nombre" name="nombre" class="box" required>
+            </div>
+            
+            <div class="email">
+                <p class="titulos">Correo Electrónico:</p>
+                <input type="email" id="correo" name="correo"class="box" required>
+            </div>
+            
+            <div class="fecha">
+                <p class="titulos">Fecha de nacimiento:</p>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" class="box" required>
+                
+            </div>
+
+            <div class="rango">
+                <p class="titulos">Rango de ingreso:</p>
+                <input type="range" id="rangoIngreso" name="rangoIngreso" min="0" max="100" class="box">
+                <output for="rangoIngreso" id="rangoOutput">50</output>
+            </div>
+
+            <div class="genero">
+                <p class="titulos">Género:</p>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+            </div>
+
+            <div class="gradoAcademico">
+                <p class="titulos">Grado académico:</p>
+                <select id="gradoAcademico" name="gradoAcademico" multiple>
+                    <option value="secundaria">Secundaria</option>
+                    <option value="diplomado">Diplomado</option>
+                    <option value="bachillerato">Bachillerato</option>
+                    <option value="licenciatura">Licenciatura</option>
+                </select>
+            </div>
+          
+            <div class="boton">
+                <input type="submit" value="Enviar" />
+            </div>
+
+            <!-- <input type="text"> -->
+        </form>
+    </div>
+</section>
+
+
+<script>
+    // Calcular la edad al seleccionar la fecha de nacimiento
+    document.getElementById('fechaNacimiento').addEventListener('change', function() {
+        const fechaNacimiento = new Date(this.value);
+        const hoy = new Date();
+        const edad = hoy.getFullYear() - fechaNacimiento.getFullYear();
+        document.getElementById('edad').value = edad;
+    });
+
+
+    //Para utilizar el valor del output según el rango de ingreso
+    const rangoIngreso = document.getElementById('rangoIngreso');
+    const rangoOutput = document.getElementById('rangoOutput');
+
+    rangoIngreso.addEventListener('input', function() {
+        rangoOutput.value = this.value;
+    });
+
+</script>
+
+<!-- contact section ends -->
+
+
+
+
+
+
+
+
+<!-- icons section starts  -->
+
+<div class="icons-container">
+
+    <section class="box-container">
+
+        <div class="box">
+            <img src="images/icon-1.png" alt="">
+            <div class="info">
+                <h3>Envío gratuito</h3>
+                <span>en la primer orden</span>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="images/icon-2.png" alt="">
+            <div class="info">
+                <h3>3 días de garantía</h3>
+                <span>por defecto del producto</span>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="images/icon-3.png" alt="">
+            <div class="info">
+                <h3>Giveaways cada mes</h3>
+                <span>Siguenos en instagram</span>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- icons section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>K-Fresh Jabones Artesanales</h3>
+            <br/>
+            <br/>
+            <p style="font-size: 15px; color: rgb(109, 106, 106);" >Dirección: La Ribera de Belén, calle las chilas</p>
+            <p style="font-size: 15px; color: rgb(109, 106, 106);" >Correo electrónico: kfresh1997@gmail.com</p>
+        </div>
+
+        <br/>
+        <br/>
+
+        <div class="box">
+            <h3>Redes sociales</h3>
+            <a href="https://www.instagram.com/kfresh1997/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                <img src="images/Instagram.png" alt=""> 
+                Instagram
+            </a>    
+
+            <a href="https://www.facebook.com/profile.php?id=61554004974119&mibextid=LQQJ4d" target="_blank">
+                <img src="images/facebook.png" alt=""> 
+                Facebook
+            </a>      
+        </div>
+
+        <div class="box">
+            <img src="images/logo3.jpg" alt=""> 
+        </div>
+
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="credit">Creado por <span> Katalina Murillo Soto</span> | Universidad Técnica Nacional </div>
+
+</section>
+<!-- footer section ends -->
+
+</body>
+</html>
